@@ -572,13 +572,13 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Analytics: 0
-    Build: 1
-    Collab: 1
+    Build: 0
+    Collab: 0
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 1
+    UNet: 0
     Unity_Ads: 0
   cloudProjectId: 96db26e2-3178-47d6-a221-a55bf0e99e59
   projectName: Rustland
