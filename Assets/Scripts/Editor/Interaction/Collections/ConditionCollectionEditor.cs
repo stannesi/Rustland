@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-/*
+
 [CustomEditor(typeof(ConditionCollection))]
 public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, Condition>
 {
@@ -50,10 +50,13 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
 		EditorGUI.indentLevel++;
 		EditorGUILayout.BeginHorizontal();
 		descriptionProperty.isExpanded = EditorGUILayout.Foldout(descriptionProperty.isExpanded, descriptionProperty.stringValue);
+
 		if (GUILayout.Button("Remove Collection", GUILayout.Width(collectionButtonWidth)))
 		{
+			// extention method RemoveFromObjectArray
 			collectionsProperty.RemoveFromObjectArray (conditionCollection);
 		}
+
 		EditorGUILayout.EndHorizontal();
 
 		if (descriptionProperty.isExpanded)
@@ -104,5 +107,3 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
 		return newConditionCollection;
 	}
 }
-
-*/

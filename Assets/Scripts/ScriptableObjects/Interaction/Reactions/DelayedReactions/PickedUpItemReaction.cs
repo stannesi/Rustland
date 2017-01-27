@@ -1,5 +1,4 @@
-﻿/*
-public class PickedUpItemReaction : DelayedReaction
+﻿public class PickedUpItemReaction : DelayedReaction
 {
 
 	public Item item;
@@ -16,4 +15,3 @@ public class PickedUpItemReaction : DelayedReaction
 		inventory.AddItem (item);	
 	}
 }
-*/

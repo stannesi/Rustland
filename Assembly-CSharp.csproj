@@ -46,19 +46,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Interactable\Interactable.cs" />
-     <Compile Include="Assets\Scripts\Menus\MainMenu.cs" />
-     <Compile Include="Assets\Scripts\NPC\TC700Controller.cs" />
-     <Compile Include="Assets\Scripts\NPC\TC700RandomBehaviourIdleState.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Characters\NPC\CharacterRandomBehaviourIdleState.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Characters\NPC\TC700Controller.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Characters\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\Interactable.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\ReactionCollection.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Menus\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\DelayedReaction.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\Reaction.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Conditions\AllConditions.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Conditions\Condition.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Conditions\ConditionCollection.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\DelayedReactions\DelayedReaction.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\DelayedReactions\LostItemReaction.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Reactions\DelayedReactions\PickedUpItemReaction.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\Inventory.cs" />
-     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory\Item.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Item\Item.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\ResettableScriptableObject.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

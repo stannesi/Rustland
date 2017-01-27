@@ -1,0 +1,17 @@
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEditor.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Mono.Cecil.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Unity.DataContract.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/stannesi/Labs/Unity-Lab/Rustland/Temp/bin/Debug/Mono.Cecil.Mdb.dll

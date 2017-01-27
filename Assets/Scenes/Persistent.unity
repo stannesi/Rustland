@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -555,6 +555,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &316952922 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114759762596465232, guid: be152adfbb1264ef9a965ad8769a36e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 803562055}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &353663006
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +624,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &391709295 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114759762596465232, guid: be152adfbb1264ef9a965ad8769a36e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 91677816}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &465700925
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,6 +827,12 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224296280938672804, guid: be152adfbb1264ef9a965ad8769a36e6,
     type: 2}
   m_PrefabInternal: {fileID: 803562055}
+--- !u!114 &1045608974 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114759762596465232, guid: be152adfbb1264ef9a965ad8769a36e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 29880213}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1001 &1346723206
 Prefab:
   m_ObjectHideFlags: 0
@@ -1028,6 +1046,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1548016264 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114759762596465232, guid: be152adfbb1264ef9a965ad8769a36e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 21936391}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1748193754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,6 +1114,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1976267165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1976267166}
+  - component: {fileID: 1976267167}
+  m_Layer: 0
+  m_Name: Interractable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1976267166
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1976267165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3.9653144, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976267167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1976267165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07a37bcdb973d443f8e46824bf582b56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionLocation: {fileID: 0}
+  conditionCollections:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &2012450170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,18 +1205,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2012450170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 817646a78d57c49c1b8eec82322f4445, type: 3}
+  m_Script: {fileID: 11500000, guid: 46d8bad6f895a8f468f8f52259447a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemImage:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  itemImages:
+  - {fileID: 2119321406}
+  - {fileID: 1045608974}
+  - {fileID: 1548016264}
+  - {fileID: 316952922}
+  - {fileID: 391709295}
   items:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!114 &2119321406 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114759762596465232, guid: be152adfbb1264ef9a965ad8769a36e6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1346723206}
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}

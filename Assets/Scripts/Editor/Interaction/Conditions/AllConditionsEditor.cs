@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
-/*
+
 [CustomEditor(typeof(AllConditions))]
 public class AllConditionsEditor : Editor
 {
@@ -205,5 +205,3 @@ public class AllConditionsEditor : Editor
         return AllConditions.Instance.conditions.Length;
     }
 }
-
-*/

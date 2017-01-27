@@ -1,4 +1,4 @@
-﻿/*
+﻿
 public class LostItemReaction : DelayedReaction
 {
 	public Item item;
@@ -15,4 +15,3 @@ public class LostItemReaction : DelayedReaction
 		inventory.RemoveItem (item);	
 	}
 }
-*/

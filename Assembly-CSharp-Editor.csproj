@@ -47,11 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\Abstracts\EditorWithSubEditors.cs" />
+     <Compile Include="Assets\Scripts\Editor\Extensions\SerializedPropertyExtensions.cs" />
      <Compile Include="Assets\Scripts\Editor\Interaction\Collections\ConditionCollectionEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\Interaction\Conditions\AllConditionsEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\Interaction\Conditions\ConditionCollectionEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\Interaction\Conditions\ConditionEditor.cs" />
-     <Compile Include="Assets\Scripts\Editor\InventoryEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Inventory\InventoryEditor.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-/*
+
 [CustomEditor(typeof(Condition))]
 public class ConditionEditor : Editor
 {
@@ -149,5 +149,3 @@ public class ConditionEditor : Editor
         condition.hash = Animator.StringToHash (condition.description);
     }
 }
-
-*/

@@ -2,10 +2,9 @@
 using UnityEditor;
 
 // GetComponent <Type>()
-/*
 public abstract class EditorWithSubEditors<TEditor, TTarget> : Editor
 		where TEditor : Editor
-		where TTarget : object
+		where TTarget : Object
 {
 	protected TEditor[] subEditors;
 
@@ -40,4 +39,3 @@ public abstract class EditorWithSubEditors<TEditor, TTarget> : Editor
 
 	protected abstract void SubEditorSetup (TEditor editor);
 }
-*/

@@ -26,18 +26,22 @@ public class AllConditions : ResettableScriptableObject
 		set { instance = value; }
 	}
 
+	// rest
 	public override void Reset()
 	{
+		// if there is no conditions to rest, don't resetting
 		if (conditions == null)
 			return;
 
+		// reset all conditions satifaction to falsa
 		for (int i = 0; i < conditions.Length; i++)
 		{
 			conditions [i].satisfied = false;
 		}
 	}
 
-	public  void CheckCondition(Condition requiredCondition)
+	// check conditions
+	public static bool CheckCondition(Condition requiredCondition)
 	{
 		Condition[] allCondition = Instance.conditions;
 		Condition globalCondition = null;
@@ -49,11 +53,11 @@ public class AllConditions : ResettableScriptableObject
 				if (allCondition [i].hash == requiredCondition.hash)
 					globalCondition = allCondition [i];
 			}
-
-//			if (!globalCondition)
-//				return false;
-
-//			return globalCondition.satisfied == requiredCondition.satisfied;
 		}
+
+		if (!globalCondition)
+			return false;
+
+		return globalCondition.satisfied == requiredCondition.satisfied;
 	}
 }
