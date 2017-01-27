@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{681305F0-7B13-0E40-C470-B99935D978D3}") = "Rustland", "Assembly-CSharp.csproj", "{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}"
 EndProject
+Project("{681305F0-7B13-0E40-C470-B99935D978D3}") = "Rustland", "Assembly-CSharp-Editor.csproj", "{0BEDC806-FE83-511C-96AD-A6E8D7C35550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BEDC806-FE83-511C-96AD-A6E8D7C35550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BEDC806-FE83-511C-96AD-A6E8D7C35550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BEDC806-FE83-511C-96AD-A6E8D7C35550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BEDC806-FE83-511C-96AD-A6E8D7C35550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
