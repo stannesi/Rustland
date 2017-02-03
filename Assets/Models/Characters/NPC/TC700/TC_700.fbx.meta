@@ -502,7 +502,7 @@ ModelImporter:
     13700146: SpineBase
     13700148: Tire01
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:

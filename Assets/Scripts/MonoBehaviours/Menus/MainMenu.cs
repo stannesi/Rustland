@@ -5,13 +5,14 @@ public class MainMenu : MonoBehaviour {
 
 	// Use this for initialization
 	public void LoadLevel () {
-		SceneManager.LoadScene("Level01");
+		SceneManager.LoadScene("Garrage Outdoor");
 	}
+
 	public void Credits () {
 		SceneManager.LoadScene("Credits");
 	}
 	public void Back () {
-		SceneManager.LoadScene("MainMenu");
+		SceneManager.LoadScene("Main Menu");
 	}
 	
 
