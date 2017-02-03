@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TC700RandomBehaviourIdleState : StateMachineBehaviour {
+public class CharacterRandomBehaviourIdleState : StateMachineBehaviour {
 
 	public string m_parameterName = "idleIndex";
 	public int[] m_stateIndexArray = {0,1,2,3};
