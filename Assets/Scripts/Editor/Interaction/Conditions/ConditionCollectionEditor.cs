@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-/*
 [CustomEditor(typeof(ConditionCollection))]
 public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, Condition>
 {
@@ -131,4 +130,3 @@ public class ConditionCollectionEditor : EditorWithSubEditors<ConditionEditor, C
         return newConditionCollection;
     }
 }
-*/

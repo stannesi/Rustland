@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{681305F0-7B13-0E40-C470-B99935D978D3}") = "Rustland", "Assembly-CSharp-firstpass.csproj", "{E15BDF77-9926-077F-44F4-1F9ADF77F956}"
+EndProject
 Project("{681305F0-7B13-0E40-C470-B99935D978D3}") = "Rustland", "Assembly-CSharp.csproj", "{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}"
 EndProject
 Project("{681305F0-7B13-0E40-C470-B99935D978D3}") = "Rustland", "Assembly-CSharp-Editor.csproj", "{0BEDC806-FE83-511C-96AD-A6E8D7C35550}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E15BDF77-9926-077F-44F4-1F9ADF77F956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15BDF77-9926-077F-44F4-1F9ADF77F956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15BDF77-9926-077F-44F4-1F9ADF77F956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15BDF77-9926-077F-44F4-1F9ADF77F956}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC2A9D3-EB44-945D-35C3-4278F3A0BD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
