@@ -30,7 +30,7 @@ PlayerSettings:
     x: 0
     y: 0
     width: 1
-    height: 1
+    height: 0.99908185
   m_SplashScreenBackgroundPortraitUvs:
     serializedVersion: 2
     x: 0
@@ -211,7 +211,7 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f6c01affe54644605a7aa04602fc7c5e, type: 3}
+      m_Icon: {fileID: 2800000, guid: 410881f67303b427ea0e3380a78ea8b9, type: 3}
       m_Width: 1024
       m_Height: 1024
     - serializedVersion: 2
