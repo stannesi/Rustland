@@ -6,11 +6,11 @@ PlayerSettings:
   serializedVersion: 10
   productGUID: f0b4456e1111f4806bdc19c2b35d731e
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Nappy Cat
+  companyName: nappycat studios
   productName: Rustland
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -38,7 +38,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: f6c01affe54644605a7aa04602fc7c5e, type: 3}
+  - logo: {fileID: 21300000, guid: 410881f67303b427ea0e3380a78ea8b9, type: 3}
     duration: 2
   m_SplashScreenBackgroundLandscape: {fileID: 0}
   m_SplashScreenBackgroundPortrait: {fileID: 0}
@@ -241,7 +241,7 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 68d36318eae9e430798d770a6f51b5e8, type: 3}
+      m_Icon: {fileID: 2800000, guid: 410881f67303b427ea0e3380a78ea8b9, type: 3}
       m_Width: 192
       m_Height: 192
     - serializedVersion: 2
@@ -267,7 +267,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 68d36318eae9e430798d770a6f51b5e8, type: 3}
+      m_Icon: {fileID: 2800000, guid: 410881f67303b427ea0e3380a78ea8b9, type: 3}
       m_Width: 128
       m_Height: 128
   m_BuildTargetBatching: []
@@ -475,7 +475,8 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psp2UseDebugIl2cppLibs: 0
   psmSplashimage: {fileID: 0}
-  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourceLandscape: {fileID: 21300000, guid: 356e03f9926ad44e69079f17a219a804,
+    type: 3}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
   spritePackerPolicy: 
   webGLMemorySize: 256
