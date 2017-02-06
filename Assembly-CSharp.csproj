@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\RustlandSignboard.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\Camera\CameraControl.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Characters\NPC\CharacterRandomBehaviourIdleState.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Characters\NPC\TC700Controller.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Characters\Player\PlayerMovement.cs" />
@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\MonoBehaviours\Interaction\ReactionCollection.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Inventory\Inventory.cs" />
      <Compile Include="Assets\Scripts\MonoBehaviours\Menus\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MonoBehaviours\RustlandSignboard.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\DelayedReaction.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Abstracts\Reaction.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\Interaction\Conditions\AllConditions.cs" />
