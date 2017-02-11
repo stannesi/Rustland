@@ -1062,9 +1062,9 @@ GameObject:
   - component: {fileID: 4174638276603044}
   - component: {fileID: 95411974063958666}
   - component: {fileID: 136742311498365836}
+  - component: {fileID: 54781727297342148}
   - component: {fileID: 195099986267931438}
   - component: {fileID: 114813071953591472}
-  - component: {fileID: 54781727297342148}
   m_Layer: 0
   m_Name: reedus_clickable
   m_TagString: Untagged
@@ -1334,9 +1334,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1987596516538542}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -4.4322205, y: -3.309679, z: 4.414154}
-  m_LocalScale: {x: 18.000013, y: 18, z: 18.000013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children:
   - {fileID: 4641257488970360}
   - {fileID: 4818009493510446}
@@ -1346,7 +1346,7 @@ Transform:
   - {fileID: 4472354098290898}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4219042790910022
 Transform:
   m_ObjectHideFlags: 1
@@ -2145,7 +2145,7 @@ Animator:
   m_GameObject: {fileID: 1987596516538542}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2da5a41d9f07643d194659747ceaed84, type: 3}
-  m_Controller: {fileID: 9100000, guid: c3203201c74ec4b6594e521a4ceedcab, type: 2}
+  m_Controller: {fileID: 9100000, guid: 73575eb5cff704f76b3a94690b4c4337, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -2432,7 +2432,7 @@ NavMeshAgent:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1987596516538542}
   m_Enabled: 1
-  m_Radius: 0.06
+  m_Radius: 0.05
   m_Speed: 2
   m_Acceleration: 20
   avoidancePriority: 50

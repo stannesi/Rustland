@@ -4,15 +4,23 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour {
 
 	// Use this for initialization
-	public void LoadLevel () {
+	public void LoadLevel ()
+	{
 		SceneManager.LoadScene("Garrage Outdoor");
 	}
 
-	public void Credits () {
+	public void Credits ()
+	{
 		SceneManager.LoadScene("Credits");
 	}
-	public void Back () {
+
+	public void Back ()
+	{
 		SceneManager.LoadScene("Main Menu");
 	}
 
+	public void Exit()
+	{
+		Application.Quit ();
+	}
 }
