@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class RustlandSignboard : MonoBehaviour {
 
 	public float forceAmount = 10f;
@@ -21,7 +23,7 @@ public class RustlandSignboard : MonoBehaviour {
 
 	void OnMouseDown()
 	{
-		rb.AddForce (-transform.forward * forceAmount, ForceMode.Acceleration);
-		rb.useGravity = true;
+		SceneManager.LoadScene("Garrage Outdoor");
+
 	}
 }

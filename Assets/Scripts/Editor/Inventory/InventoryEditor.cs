@@ -43,7 +43,7 @@ public class InventoryEditor : Editor
             EditorGUILayout.PropertyField (itemsProperty.GetArrayElementAtIndex (index));
         }
 
-        EditorGUI.indentLevel--;
-        EditorGUILayout.EndVertical ();
+       	EditorGUI.indentLevel--;
+     	EditorGUILayout.EndVertical ();
     }
 }

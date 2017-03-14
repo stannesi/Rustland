@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
 	public Animator animator;
 	public NavMeshAgent agent;
 
+	public SavaData playerSaveData;
+
 	public float turnSmoothing = 15f;
 	public float speedDampTime = 0.1f;
 	public float slowingSpeed = 0.175f;
@@ -26,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
 	private readonly int hashLocomotionTag = Animator.StringToHash("Locomotion");
 
 
+	public const string startingPositionKey = "starting position";
+
 	// Use this for initialization
 	private void Start ()
 	{
@@ -33,8 +37,14 @@ public class PlayerMovement : MonoBehaviour
 
 		inputHoldWait =  new WaitForSeconds(inputHoldDelay);
 
-		destinationPosition = transform.position;
+		string startingPositionName = "GarrageStartPosition";
+		playerSaveData.Load (startingPositionKey, ref startingPositionName);
+		Transform startingPosition = StartingPosition.FindStartingPosition (startingPositionName);
 
+		transform.position = startingPosition.position;
+		transform.rotation = startingPosition.rotation;
+
+		destinationPosition = transform.position;
 	}
 	
 	private void OnAnimatorMove ()
@@ -121,7 +131,7 @@ public class PlayerMovement : MonoBehaviour
 		agent.Resume();
 	}
 
-	private void OnInteractableClick(Interactable interactable)
+	public void OnInteractableClick(Interactable interactable)
 	{
 		if (!handleInput)
 		{

@@ -4,14 +4,18 @@ using UnityEditor;
 [CustomEditor(typeof(Interactable))]
 public class InteractableEditor : EditorWithSubEditors<ConditionCollectionEditor, ConditionCollection>
 {
-    private Interactable interactable;
+	private SerializedProperty interactOnTriggerProperty;
+
+	private Interactable interactable;
     private SerializedProperty interactionLocationProperty;
     private SerializedProperty collectionsProperty;
     private SerializedProperty defaultReactionCollectionProperty;
 
-
     private const float collectionButtonWidth = 125f;
-    private const string interactablePropInteractionLocationName = "interactionLocation";
+
+	private const string interactablePropInteractOnTriggerName = "interactOnTrigger";
+
+	private const string interactablePropInteractionLocationName = "interactionLocation";
     private const string interactablePropConditionCollectionsName = "conditionCollections";
     private const string interactablePropDefaultReactionCollectionName = "defaultReactionCollection";
 
@@ -19,6 +23,9 @@ public class InteractableEditor : EditorWithSubEditors<ConditionCollectionEditor
     private void OnEnable ()
     {
         interactable = (Interactable)target;
+
+
+		interactOnTriggerProperty = serializedObject.FindProperty(interactablePropInteractOnTriggerName);
 
         collectionsProperty = serializedObject.FindProperty(interactablePropConditionCollectionsName);
         interactionLocationProperty = serializedObject.FindProperty(interactablePropInteractionLocationName);
@@ -43,7 +50,9 @@ public class InteractableEditor : EditorWithSubEditors<ConditionCollectionEditor
     public override void OnInspectorGUI ()
     {
         serializedObject.Update ();
-        
+     
+		EditorGUILayout.PropertyField (interactOnTriggerProperty);
+
         CheckAndCreateSubEditors(interactable.conditionCollections);
         
         EditorGUILayout.PropertyField (interactionLocationProperty);

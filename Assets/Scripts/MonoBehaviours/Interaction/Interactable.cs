@@ -5,7 +5,9 @@ public class Interactable : MonoBehaviour {
 	
 	public Transform interactionLocation;
 	public ConditionCollection[] conditionCollections = new ConditionCollection[0];
-//	public ReactionCollection defaultReactionCollection;
+	public ReactionCollection defaultReactionCollection;
+
+	public bool interactOnTrigger;
 
 	// interact
 	public void Interact ()
@@ -17,6 +19,14 @@ public class Interactable : MonoBehaviour {
 				return;
 		}
 
-		// defaultReactionCollection.React();
+		defaultReactionCollection.React();
+	}
+
+	public void OnTriggerEnter(Collider other)
+	{
+		if (other.CompareTag ("Player") && interactOnTrigger)
+		{
+			Interact ();
+		}
 	}
 }

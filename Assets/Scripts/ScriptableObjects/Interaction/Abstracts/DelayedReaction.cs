@@ -5,7 +5,6 @@ public abstract class DelayedReaction : Reaction
 {
     public float delay;
 
-
     protected WaitForSeconds wait;
 
 
