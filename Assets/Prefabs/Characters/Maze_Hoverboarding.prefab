@@ -850,7 +850,6 @@ GameObject:
   - component: {fileID: 95836215551301112}
   - component: {fileID: 136310190786529918}
   - component: {fileID: 54838613445223502}
-  - component: {fileID: 114588630183779974}
   m_Layer: 0
   m_Name: Maze_Hoverboarding
   m_TagString: Player
@@ -2050,24 +2049,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114588630183779974
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1822643906986810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd146a6cfb1be43939181235c4441804, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 95836215551301112}
-  agent: {fileID: 0}
-  turnSmoothing: 15
-  speedDampTime: 0.1
-  slowingSpeed: 0.175
-  turnSpeedThreshold: 0.5
-  inputHoldDelay: 0.5
 --- !u!136 &136310190786529918
 CapsuleCollider:
   m_ObjectHideFlags: 1

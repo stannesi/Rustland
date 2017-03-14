@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SceneController
+  - DamageCollider
   layers:
   - Default
   - TransparentFX
