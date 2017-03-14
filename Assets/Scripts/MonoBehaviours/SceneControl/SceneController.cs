@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour {
 
 	// instance
-	public static SceneController instance = null;
+	// public static SceneController instance = null;
 
 	// event deligated that is called just before a scene is unloaded.
 	public event Action BeforeSceneUnload;
@@ -32,6 +32,7 @@ public class SceneController : MonoBehaviour {
 
 	private bool isFading;
 
+	/*
 	void Awake()
 	{
 		if (instance == null)
@@ -39,6 +40,7 @@ public class SceneController : MonoBehaviour {
 		else if (instance != this)
 			Destroy (gameObject);
 	}
+	*/
 
 	private IEnumerator Start ()
 	{
