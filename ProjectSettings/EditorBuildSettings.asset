@@ -12,6 +12,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Playground/hoverboard-demo-01.unity
   - enabled: 1
+    path: Assets/Scenes/Episode-01/UndergroundRace-01.unity
+  - enabled: 1
     path: Assets/Scenes/Menus/Credits.unity
   - enabled: 1
     path: Assets/Scenes/Episode-02/Garrage Outdoor.unity

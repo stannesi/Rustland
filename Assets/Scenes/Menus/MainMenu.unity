@@ -2605,6 +2605,11 @@ Prefab:
       propertyPath: locked
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114982449827978924, guid: 5d448fd6a43534aabaaa897bae1684c9,
+        type: 2}
+      propertyPath: episodeSceneName
+      value: UndergroundRace-01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d448fd6a43534aabaaa897bae1684c9, type: 2}
   m_IsPrefabParent: 0
@@ -4966,6 +4971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b73a882b304e407b928aed4116d0a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmount: 10
 --- !u!1 &866540183
 GameObject:
   m_ObjectHideFlags: 0

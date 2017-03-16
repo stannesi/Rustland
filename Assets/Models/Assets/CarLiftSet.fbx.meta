@@ -342,7 +342,7 @@ ModelImporter:
     4300068: pCylinder5
     4300070: pCylinder6
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:

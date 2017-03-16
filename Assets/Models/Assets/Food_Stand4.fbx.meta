@@ -367,7 +367,7 @@ ModelImporter:
     4300138: MT_Pipe
     4300140: T_Pipe
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
